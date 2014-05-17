@@ -1,0 +1,3 @@
+@interface TFFCommunicationPatternsTableViewController : UITableViewController
+
+@end

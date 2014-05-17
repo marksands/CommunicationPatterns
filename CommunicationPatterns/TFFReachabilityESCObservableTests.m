@@ -20,6 +20,7 @@
     [self.testObject startMonitoring];
     
     SBLVerify([mock1 networkStatusChanged:SBLAny(TFFReachabilityStatus)]);
-    SBLVerify([mock2 networkStatusChanged:SBLAny(TFFReachabilityStatus)]);}
+    SBLVerify([mock2 networkStatusChanged:SBLAny(TFFReachabilityStatus)]);
+}
 
 @end

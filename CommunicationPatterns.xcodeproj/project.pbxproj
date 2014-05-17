@@ -14,7 +14,7 @@
 		76B294641926EF5A00BFA6CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294631926EF5A00BFA6CC /* main.m */; };
 		76B294681926EF5A00BFA6CC /* TFFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294671926EF5A00BFA6CC /* TFFAppDelegate.m */; };
 		76B2946B1926EF5A00BFA6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B294691926EF5A00BFA6CC /* Main.storyboard */; };
-		76B2946E1926EF5A00BFA6CC /* TFFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2946D1926EF5A00BFA6CC /* TFFViewController.m */; };
+		76B2946E1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B2946D1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m */; };
 		76B294701926EF5A00BFA6CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B2946F1926EF5A00BFA6CC /* Images.xcassets */; };
 		76B294771926EF5A00BFA6CC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294761926EF5A00BFA6CC /* XCTest.framework */; };
 		76B294781926EF5A00BFA6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294571926EF5A00BFA6CC /* Foundation.framework */; };
@@ -35,6 +35,7 @@
 		76B294F5192715B800BFA6CC /* TFFReachabilityNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294F4192715B800BFA6CC /* TFFReachabilityNotificationTests.m */; };
 		76B294F8192717EA00BFA6CC /* TFFReachabilityESCObservable.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294F7192717EA00BFA6CC /* TFFReachabilityESCObservable.m */; };
 		76B294FA192717F600BFA6CC /* TFFReachabilityESCObservableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294F9192717F600BFA6CC /* TFFReachabilityESCObservableTests.m */; };
+		76CA0DE71927BD7000F97F6D /* TFFTargetActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA0DE61927BD7000F97F6D /* TFFTargetActionViewController.m */; };
 		F44C550F80D648EE858BC350 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0870954BEE0412D9611C1A1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,8 +62,8 @@
 		76B294661926EF5A00BFA6CC /* TFFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFFAppDelegate.h; sourceTree = "<group>"; };
 		76B294671926EF5A00BFA6CC /* TFFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFFAppDelegate.m; sourceTree = "<group>"; };
 		76B2946A1926EF5A00BFA6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76B2946C1926EF5A00BFA6CC /* TFFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFFViewController.h; sourceTree = "<group>"; };
-		76B2946D1926EF5A00BFA6CC /* TFFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFFViewController.m; sourceTree = "<group>"; };
+		76B2946C1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFFCommunicationPatternsTableViewController.h; sourceTree = "<group>"; };
+		76B2946D1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFFCommunicationPatternsTableViewController.m; sourceTree = "<group>"; };
 		76B2946F1926EF5A00BFA6CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		76B294751926EF5A00BFA6CC /* CommunicationPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunicationPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B294761926EF5A00BFA6CC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -89,6 +90,8 @@
 		76B294F6192717EA00BFA6CC /* TFFReachabilityESCObservable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFReachabilityESCObservable.h; sourceTree = "<group>"; };
 		76B294F7192717EA00BFA6CC /* TFFReachabilityESCObservable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityESCObservable.m; sourceTree = "<group>"; };
 		76B294F9192717F600BFA6CC /* TFFReachabilityESCObservableTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityESCObservableTests.m; sourceTree = "<group>"; };
+		76CA0DE51927BD7000F97F6D /* TFFTargetActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFTargetActionViewController.h; sourceTree = "<group>"; };
+		76CA0DE61927BD7000F97F6D /* TFFTargetActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFTargetActionViewController.m; sourceTree = "<group>"; };
 		A0870954BEE0412D9611C1A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +121,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		768AD1381927CDA000B07C32 /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				76B294D91926F83600BFA6CC /* TFFReachabilityTargetAction.h */,
+				76B294DA1926F83600BFA6CC /* TFFReachabilityTargetAction.m */,
+				76B294DD1927072100BFA6CC /* TFFReachabilityTargetActionTests.m */,
+			);
+			name = TargetAction;
+			sourceTree = "<group>";
+		};
+		768AD1391927CDA500B07C32 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				76B294E71927137200BFA6CC /* TFFReachabilityBlock.h */,
+				76B294E81927137200BFA6CC /* TFFReachabilityBlock.m */,
+				76B294EA1927137B00BFA6CC /* TFFReachabilityBlockTests.m */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		768AD13A1927CDA900B07C32 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				76B294EC192714BE00BFA6CC /* TFFReachabilityDelegate.h */,
+				76B294ED192714BE00BFA6CC /* TFFReachabilityDelegate.m */,
+				76B294EF192714C800BFA6CC /* TFFReachabilityDelegateTests.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		768AD13B1927CDAC00B07C32 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				76B294F1192715AD00BFA6CC /* TFFReachabilityNotification.h */,
+				76B294F2192715AD00BFA6CC /* TFFReachabilityNotification.m */,
+				76B294F4192715B800BFA6CC /* TFFReachabilityNotificationTests.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		768AD13C1927CDB100B07C32 /* ESCObservable */ = {
+			isa = PBXGroup;
+			children = (
+				76B294F6192717EA00BFA6CC /* TFFReachabilityESCObservable.h */,
+				76B294F7192717EA00BFA6CC /* TFFReachabilityESCObservable.m */,
+				76B294F9192717F600BFA6CC /* TFFReachabilityESCObservableTests.m */,
+			);
+			name = ESCObservable;
+			sourceTree = "<group>";
+		};
+		768AD13D1927CDBA00B07C32 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				76B294E5192712FE00BFA6CC /* TFFReachabilityKVO.h */,
+				76B294E4192712FE00BFA6CC /* TFFReachabilityKVO.m */,
+				76B294E2192710B500BFA6CC /* TFFReachabilityKVOTests.m */,
+			);
+			name = KVO;
+			sourceTree = "<group>";
+		};
 		76B2944B1926EF5A00BFA6CC = {
 			isa = PBXGroup;
 			children = (
@@ -154,33 +217,15 @@
 		76B2945D1926EF5A00BFA6CC /* CommunicationPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				76CA0DE81927BDAE00F97F6D /* TargetAction */,
+				76CA0DE41927BD3C00F97F6D /* CommunicationPatterns */,
 				76B2946F1926EF5A00BFA6CC /* Images.xcassets */,
 				76B294691926EF5A00BFA6CC /* Main.storyboard */,
 				76B2945E1926EF5A00BFA6CC /* Supporting Files */,
 				76B294661926EF5A00BFA6CC /* TFFAppDelegate.h */,
 				76B294671926EF5A00BFA6CC /* TFFAppDelegate.m */,
-				76B294D41926F02200BFA6CC /* TFFReachability.h */,
-				76B294D51926F02200BFA6CC /* TFFReachability.m */,
-				76B294E5192712FE00BFA6CC /* TFFReachabilityKVO.h */,
-				76B294E4192712FE00BFA6CC /* TFFReachabilityKVO.m */,
-				76B294E2192710B500BFA6CC /* TFFReachabilityKVOTests.m */,
-				76B294D91926F83600BFA6CC /* TFFReachabilityTargetAction.h */,
-				76B294DA1926F83600BFA6CC /* TFFReachabilityTargetAction.m */,
-				76B294DD1927072100BFA6CC /* TFFReachabilityTargetActionTests.m */,
-				76B2946C1926EF5A00BFA6CC /* TFFViewController.h */,
-				76B2946D1926EF5A00BFA6CC /* TFFViewController.m */,
-				76B294E71927137200BFA6CC /* TFFReachabilityBlock.h */,
-				76B294E81927137200BFA6CC /* TFFReachabilityBlock.m */,
-				76B294EA1927137B00BFA6CC /* TFFReachabilityBlockTests.m */,
-				76B294EC192714BE00BFA6CC /* TFFReachabilityDelegate.h */,
-				76B294ED192714BE00BFA6CC /* TFFReachabilityDelegate.m */,
-				76B294EF192714C800BFA6CC /* TFFReachabilityDelegateTests.m */,
-				76B294F1192715AD00BFA6CC /* TFFReachabilityNotification.h */,
-				76B294F2192715AD00BFA6CC /* TFFReachabilityNotification.m */,
-				76B294F4192715B800BFA6CC /* TFFReachabilityNotificationTests.m */,
-				76B294F6192717EA00BFA6CC /* TFFReachabilityESCObservable.h */,
-				76B294F7192717EA00BFA6CC /* TFFReachabilityESCObservable.m */,
-				76B294F9192717F600BFA6CC /* TFFReachabilityESCObservableTests.m */,
+				76B2946C1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.h */,
+				76B2946D1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m */,
 			);
 			path = CommunicationPatterns;
 			sourceTree = "<group>";
@@ -211,6 +256,30 @@
 				76B2947F1926EF5A00BFA6CC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76CA0DE41927BD3C00F97F6D /* CommunicationPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				76B294D41926F02200BFA6CC /* TFFReachability.h */,
+				76B294D51926F02200BFA6CC /* TFFReachability.m */,
+				768AD1391927CDA500B07C32 /* Blocks */,
+				768AD13A1927CDA900B07C32 /* Delegates */,
+				768AD13C1927CDB100B07C32 /* ESCObservable */,
+				768AD13D1927CDBA00B07C32 /* KVO */,
+				768AD13B1927CDAC00B07C32 /* Notifications */,
+				768AD1381927CDA000B07C32 /* TargetAction */,
+			);
+			name = CommunicationPatterns;
+			sourceTree = "<group>";
+		};
+		76CA0DE81927BDAE00F97F6D /* TargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				76CA0DE51927BD7000F97F6D /* TFFTargetActionViewController.h */,
+				76CA0DE61927BD7000F97F6D /* TFFTargetActionViewController.m */,
+			);
+			name = TargetAction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +421,8 @@
 				76B294F3192715AD00BFA6CC /* TFFReachabilityNotification.m in Sources */,
 				76B294641926EF5A00BFA6CC /* main.m in Sources */,
 				76B294E6192712FE00BFA6CC /* TFFReachabilityKVO.m in Sources */,
-				76B2946E1926EF5A00BFA6CC /* TFFViewController.m in Sources */,
+				76B2946E1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m in Sources */,
+				76CA0DE71927BD7000F97F6D /* TFFTargetActionViewController.m in Sources */,
 				76B294DB1926F83600BFA6CC /* TFFReachabilityTargetAction.m in Sources */,
 				76B294F8192717EA00BFA6CC /* TFFReachabilityESCObservable.m in Sources */,
 				76B294681926EF5A00BFA6CC /* TFFAppDelegate.m in Sources */,

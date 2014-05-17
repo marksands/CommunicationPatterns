@@ -1,6 +1,6 @@
 typedef NS_ENUM(NSInteger, TFFReachabilityStatus) {
-    TFFReachabilityStatusNotReachable = 0,
-    TFFReachabilityStatusReachable    = 1
+    TFFReachabilityStatusNotReachable = 1,
+    TFFReachabilityStatusReachable    = 1 << 2
 };
 
 @interface TFFReachability : NSObject
