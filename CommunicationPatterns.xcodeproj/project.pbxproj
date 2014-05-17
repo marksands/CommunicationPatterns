@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		768AD1401927D16600B07C32 /* TFFKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD13F1927D16600B07C32 /* TFFKVOViewController.m */; };
 		768AD1441927D81000B07C32 /* TFFDelegationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD1431927D81000B07C32 /* TFFDelegationViewController.m */; };
+		768AD1481927E02600B07C32 /* TFFBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD1471927E02600B07C32 /* TFFBlocksViewController.m */; };
 		76B294581926EF5A00BFA6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294571926EF5A00BFA6CC /* Foundation.framework */; };
 		76B2945A1926EF5A00BFA6CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294591926EF5A00BFA6CC /* CoreGraphics.framework */; };
 		76B2945C1926EF5A00BFA6CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2945B1926EF5A00BFA6CC /* UIKit.framework */; };
@@ -57,6 +58,8 @@
 		768AD13F1927D16600B07C32 /* TFFKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFKVOViewController.m; sourceTree = "<group>"; };
 		768AD1421927D81000B07C32 /* TFFDelegationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFDelegationViewController.h; sourceTree = "<group>"; };
 		768AD1431927D81000B07C32 /* TFFDelegationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFDelegationViewController.m; sourceTree = "<group>"; };
+		768AD1461927E02600B07C32 /* TFFBlocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFBlocksViewController.h; sourceTree = "<group>"; };
+		768AD1471927E02600B07C32 /* TFFBlocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFBlocksViewController.m; sourceTree = "<group>"; };
 		76B294541926EF5A00BFA6CC /* CommunicationPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunicationPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B294571926EF5A00BFA6CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76B294591926EF5A00BFA6CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -205,6 +208,15 @@
 			name = Delegation;
 			sourceTree = "<group>";
 		};
+		768AD1491927E02900B07C32 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				768AD1461927E02600B07C32 /* TFFBlocksViewController.h */,
+				768AD1471927E02600B07C32 /* TFFBlocksViewController.m */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		76B2944B1926EF5A00BFA6CC = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +255,7 @@
 			children = (
 				76B2946C1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.h */,
 				76B2946D1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m */,
+				768AD1491927E02900B07C32 /* Blocks */,
 				768AD1451927D81300B07C32 /* Delegation */,
 				768AD1411927D16A00B07C32 /* KVO */,
 				76CA0DE81927BDAE00F97F6D /* TargetAction */,
@@ -452,6 +465,7 @@
 				76CA0DE71927BD7000F97F6D /* TFFTargetActionViewController.m in Sources */,
 				768AD1441927D81000B07C32 /* TFFDelegationViewController.m in Sources */,
 				76B294DB1926F83600BFA6CC /* TFFReachabilityTargetAction.m in Sources */,
+				768AD1481927E02600B07C32 /* TFFBlocksViewController.m in Sources */,
 				76B294F8192717EA00BFA6CC /* TFFReachabilityESCObservable.m in Sources */,
 				76B294681926EF5A00BFA6CC /* TFFAppDelegate.m in Sources */,
 			);
