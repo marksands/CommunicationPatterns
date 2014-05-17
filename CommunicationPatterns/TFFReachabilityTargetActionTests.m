@@ -34,13 +34,16 @@
 
     self.testObject = [[TFFReachabilityTargetAction alloc] init];
     
-    [self.testObject addTarget:mockTarget1 action:@selector(becameReachable)
+    [self.testObject addTarget:mockTarget1
+                        action:@selector(becameReachable)
                      forStatus:TFFReachabilityStatusReachable];
     
-    [self.testObject addTarget:mockTarget2 action:@selector(reachabilityChanged:)
+    [self.testObject addTarget:mockTarget2
+                        action:@selector(reachabilityChanged:)
                      forStatus:TFFReachabilityStatusNotReachable|TFFReachabilityStatusReachable];
     
-    [self.testObject addTarget:mockTarget3 action:@selector(becameReachable)
+    [self.testObject addTarget:mockTarget3
+                        action:@selector(becameReachable)
                      forStatus:TFFReachabilityStatusReachable];
     
     [self.testObject removeTarget:mockTarget3
