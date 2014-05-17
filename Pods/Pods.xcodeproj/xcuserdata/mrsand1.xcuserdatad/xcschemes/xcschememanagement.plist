@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-ESCObservable.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Pods-stubble.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>02252CA31CA244DC84888B3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>060A58E5BEEA4CF7AC8C7611</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6711875FA5334161A95D4362</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EF812612E15465B90C25415</key>
 		<dict>
 			<key>primary</key>
 			<true/>

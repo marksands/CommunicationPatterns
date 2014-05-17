@@ -6,6 +6,12 @@
 // project.
 
 
+// ESCObservable
+#define COCOAPODS_POD_AVAILABLE_ESCObservable
+#define COCOAPODS_VERSION_MAJOR_ESCObservable 1
+#define COCOAPODS_VERSION_MINOR_ESCObservable 0
+#define COCOAPODS_VERSION_PATCH_ESCObservable 2
+
 // stubble
 #define COCOAPODS_POD_AVAILABLE_stubble
 #define COCOAPODS_VERSION_MAJOR_stubble 0

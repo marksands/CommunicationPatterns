@@ -1,0 +1,5 @@
+#include "Pods-ESCObservable.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ESCObservable" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ESCObservable" "${PODS_ROOT}/Headers/stubble"
+OTHER_LDFLAGS = -ObjC ${PODS_ESCOBSERVABLE_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

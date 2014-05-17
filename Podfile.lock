@@ -1,10 +1,13 @@
 PODS:
+  - ESCObservable (1.0.2)
   - stubble (0.1.0)
 
 DEPENDENCIES:
+  - ESCObservable
   - stubble
 
 SPEC CHECKSUMS:
+  ESCObservable: a4dc4b81f87ecc046dddc47070941855ee0afa4b
   stubble: 9a16053dd8c031f0fca678dcd6bcd27797d5870a
 
 COCOAPODS: 0.32.1
