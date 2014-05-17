@@ -20,8 +20,3 @@
 }
 
 @end
-
-//
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"AFNetworkingReachabilityDidChangeNotification"
-//                                                        object:nil
-//                                                      userInfo:@{AFNetworkingReachabilityNotificationStatusItem:@(status)}];
