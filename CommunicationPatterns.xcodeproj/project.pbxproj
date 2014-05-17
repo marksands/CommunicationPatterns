@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		768AD1401927D16600B07C32 /* TFFKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD13F1927D16600B07C32 /* TFFKVOViewController.m */; };
+		768AD1441927D81000B07C32 /* TFFDelegationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD1431927D81000B07C32 /* TFFDelegationViewController.m */; };
 		76B294581926EF5A00BFA6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294571926EF5A00BFA6CC /* Foundation.framework */; };
 		76B2945A1926EF5A00BFA6CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B294591926EF5A00BFA6CC /* CoreGraphics.framework */; };
 		76B2945C1926EF5A00BFA6CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B2945B1926EF5A00BFA6CC /* UIKit.framework */; };
@@ -54,6 +55,8 @@
 		5C82275CAF23484488447740 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		768AD13E1927D16600B07C32 /* TFFKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFKVOViewController.h; sourceTree = "<group>"; };
 		768AD13F1927D16600B07C32 /* TFFKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFKVOViewController.m; sourceTree = "<group>"; };
+		768AD1421927D81000B07C32 /* TFFDelegationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFDelegationViewController.h; sourceTree = "<group>"; };
+		768AD1431927D81000B07C32 /* TFFDelegationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFDelegationViewController.m; sourceTree = "<group>"; };
 		76B294541926EF5A00BFA6CC /* CommunicationPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunicationPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B294571926EF5A00BFA6CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76B294591926EF5A00BFA6CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,6 +196,15 @@
 			name = KVO;
 			sourceTree = "<group>";
 		};
+		768AD1451927D81300B07C32 /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				768AD1421927D81000B07C32 /* TFFDelegationViewController.h */,
+				768AD1431927D81000B07C32 /* TFFDelegationViewController.m */,
+			);
+			name = Delegation;
+			sourceTree = "<group>";
+		};
 		76B2944B1926EF5A00BFA6CC = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +243,7 @@
 			children = (
 				76B2946C1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.h */,
 				76B2946D1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m */,
+				768AD1451927D81300B07C32 /* Delegation */,
 				768AD1411927D16A00B07C32 /* KVO */,
 				76CA0DE81927BDAE00F97F6D /* TargetAction */,
 				76CA0DE41927BD3C00F97F6D /* CommunicationPatterns */,
@@ -437,6 +450,7 @@
 				76B294E6192712FE00BFA6CC /* TFFReachabilityKVO.m in Sources */,
 				76B2946E1926EF5A00BFA6CC /* TFFCommunicationPatternsTableViewController.m in Sources */,
 				76CA0DE71927BD7000F97F6D /* TFFTargetActionViewController.m in Sources */,
+				768AD1441927D81000B07C32 /* TFFDelegationViewController.m in Sources */,
 				76B294DB1926F83600BFA6CC /* TFFReachabilityTargetAction.m in Sources */,
 				76B294F8192717EA00BFA6CC /* TFFReachabilityESCObservable.m in Sources */,
 				76B294681926EF5A00BFA6CC /* TFFAppDelegate.m in Sources */,

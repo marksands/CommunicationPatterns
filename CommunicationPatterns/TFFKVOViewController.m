@@ -23,6 +23,7 @@ static void * reachabilityObserving = &reachabilityObserving;
 }
 
 - (void)dealloc {
+    [self.reachability removeObserver:self forKeyPath:@"reachabilityStatus"];
     [self.reachability stopMonitoring];
 }
 
