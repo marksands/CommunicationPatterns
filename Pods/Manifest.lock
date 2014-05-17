@@ -1,0 +1,10 @@
+PODS:
+  - stubble (0.1.0)
+
+DEPENDENCIES:
+  - stubble
+
+SPEC CHECKSUMS:
+  stubble: 9a16053dd8c031f0fca678dcd6bcd27797d5870a
+
+COCOAPODS: 0.32.1
