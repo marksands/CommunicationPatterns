@@ -1,0 +1,3 @@
+@interface TFFNotificationCenterViewController : UIViewController
+
+@end
