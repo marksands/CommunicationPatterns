@@ -29,6 +29,8 @@
 		76B294E6192712FE00BFA6CC /* TFFReachabilityKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294E4192712FE00BFA6CC /* TFFReachabilityKVO.m */; };
 		76B294E91927137200BFA6CC /* TFFReachabilityBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294E81927137200BFA6CC /* TFFReachabilityBlock.m */; };
 		76B294EB1927137B00BFA6CC /* TFFReachabilityBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294EA1927137B00BFA6CC /* TFFReachabilityBlockTests.m */; };
+		76B294EE192714BE00BFA6CC /* TFFReachabilityDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294ED192714BE00BFA6CC /* TFFReachabilityDelegate.m */; };
+		76B294F0192714C800BFA6CC /* TFFReachabilityDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B294EF192714C800BFA6CC /* TFFReachabilityDelegateTests.m */; };
 		F44C550F80D648EE858BC350 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0870954BEE0412D9611C1A1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +76,9 @@
 		76B294E71927137200BFA6CC /* TFFReachabilityBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFReachabilityBlock.h; sourceTree = "<group>"; };
 		76B294E81927137200BFA6CC /* TFFReachabilityBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityBlock.m; sourceTree = "<group>"; };
 		76B294EA1927137B00BFA6CC /* TFFReachabilityBlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityBlockTests.m; sourceTree = "<group>"; };
+		76B294EC192714BE00BFA6CC /* TFFReachabilityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFReachabilityDelegate.h; sourceTree = "<group>"; };
+		76B294ED192714BE00BFA6CC /* TFFReachabilityDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityDelegate.m; sourceTree = "<group>"; };
+		76B294EF192714C800BFA6CC /* TFFReachabilityDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFReachabilityDelegateTests.m; sourceTree = "<group>"; };
 		A0870954BEE0412D9611C1A1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,6 +162,9 @@
 				76B294E71927137200BFA6CC /* TFFReachabilityBlock.h */,
 				76B294E81927137200BFA6CC /* TFFReachabilityBlock.m */,
 				76B294EA1927137B00BFA6CC /* TFFReachabilityBlockTests.m */,
+				76B294EC192714BE00BFA6CC /* TFFReachabilityDelegate.h */,
+				76B294ED192714BE00BFA6CC /* TFFReachabilityDelegate.m */,
+				76B294EF192714C800BFA6CC /* TFFReachabilityDelegateTests.m */,
 			);
 			path = CommunicationPatterns;
 			sourceTree = "<group>";
@@ -322,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B294EE192714BE00BFA6CC /* TFFReachabilityDelegate.m in Sources */,
 				76B294DC1926F96200BFA6CC /* TFFReachability.m in Sources */,
 				76B294E91927137200BFA6CC /* TFFReachabilityBlock.m in Sources */,
 				76B294641926EF5A00BFA6CC /* main.m in Sources */,
@@ -337,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76B294E3192710B500BFA6CC /* TFFReachabilityKVOTests.m in Sources */,
+				76B294F0192714C800BFA6CC /* TFFReachabilityDelegateTests.m in Sources */,
 				76B294EB1927137B00BFA6CC /* TFFReachabilityBlockTests.m in Sources */,
 				76B294D61926F02200BFA6CC /* TFFReachability.m in Sources */,
 				76B294DE1927072100BFA6CC /* TFFReachabilityTargetActionTests.m in Sources */,
