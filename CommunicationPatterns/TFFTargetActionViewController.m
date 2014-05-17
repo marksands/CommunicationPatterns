@@ -5,13 +5,13 @@
 
 @implementation TargetListeningForReachable
 - (void)reachabilityBecameReachable {
-    self.layer.borderColor = [UIColor greenColor].CGColor;
+    self.layer.borderColor = [UIColor colorWithRed:0 green:0.8 blue:0 alpha:1].CGColor;
 
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"borderWidth"];
     animation.repeatCount = 3;
     animation.autoreverses = YES;
     animation.fromValue = @(0);
-    animation.toValue = @(4);
+    animation.toValue = @(6);
     [self.layer addAnimation:animation forKey:@"borderWidth"];
 }
 @end
@@ -24,20 +24,20 @@
     animation.repeatCount = 3;
     animation.autoreverses = YES;
     animation.fromValue = @(0);
-    animation.toValue = @(4);
+    animation.toValue = @(6);
     [self.layer addAnimation:animation forKey:@"borderWidth"];
 }
 @end
 
 @implementation TargetListeningForAnyReachable
 - (void)reachabilityStatusChanged:(TFFReachabilityStatus)status {
-    self.layer.borderColor = status == TFFReachabilityStatusReachable ? [UIColor greenColor].CGColor : [UIColor redColor].CGColor;
+    self.layer.borderColor = status == TFFReachabilityStatusReachable ? [UIColor colorWithRed:0 green:0.8 blue:0 alpha:1].CGColor : [UIColor redColor].CGColor;
     
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"borderWidth"];
     animation.repeatCount = 3;
     animation.autoreverses = YES;
     animation.fromValue = @(0);
-    animation.toValue = @(4);
+    animation.toValue = @(6);
     [self.layer addAnimation:animation forKey:@"borderWidth"];
 }
 @end
