@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763E52C3192846F100038F6B /* DashedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 763E52C2192846F100038F6B /* DashedView.m */; };
 		768AD1401927D16600B07C32 /* TFFKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD13F1927D16600B07C32 /* TFFKVOViewController.m */; };
 		768AD1441927D81000B07C32 /* TFFDelegationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD1431927D81000B07C32 /* TFFDelegationViewController.m */; };
 		768AD1481927E02600B07C32 /* TFFBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD1471927E02600B07C32 /* TFFBlocksViewController.m */; };
@@ -57,6 +58,8 @@
 
 /* Begin PBXFileReference section */
 		5C82275CAF23484488447740 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		763E52C1192846F100038F6B /* DashedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedView.h; sourceTree = "<group>"; };
+		763E52C2192846F100038F6B /* DashedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedView.m; sourceTree = "<group>"; };
 		768AD13E1927D16600B07C32 /* TFFKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFKVOViewController.h; sourceTree = "<group>"; };
 		768AD13F1927D16600B07C32 /* TFFKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFFKVOViewController.m; sourceTree = "<group>"; };
 		768AD1421927D81000B07C32 /* TFFDelegationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFFDelegationViewController.h; sourceTree = "<group>"; };
@@ -293,6 +296,8 @@
 				76B2946F1926EF5A00BFA6CC /* Images.xcassets */,
 				76B294691926EF5A00BFA6CC /* Main.storyboard */,
 				76B2945E1926EF5A00BFA6CC /* Supporting Files */,
+				763E52C1192846F100038F6B /* DashedView.h */,
+				763E52C2192846F100038F6B /* DashedView.m */,
 			);
 			path = CommunicationPatterns;
 			sourceTree = "<group>";
@@ -515,6 +520,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				768AD1401927D16600B07C32 /* TFFKVOViewController.m in Sources */,
+				763E52C3192846F100038F6B /* DashedView.m in Sources */,
 				76B294EE192714BE00BFA6CC /* TFFReachabilityDelegate.m in Sources */,
 				76B294DC1926F96200BFA6CC /* TFFReachability.m in Sources */,
 				76B294E91927137200BFA6CC /* TFFReachabilityBlock.m in Sources */,

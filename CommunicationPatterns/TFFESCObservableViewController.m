@@ -1,5 +1,8 @@
 #import "TFFESCObservableViewController.h"
 #import "TFFReachabilityESCObservable.h"
+#import "DashedView.h"
+
+#pragma mark -
 
 @interface ESCListener : UIView <TFFReachabilityObserver>
 @end

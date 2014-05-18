@@ -1,0 +1,2 @@
+@interface DashedView : UIView
+@end
