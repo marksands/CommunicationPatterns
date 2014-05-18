@@ -230,15 +230,23 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Qw7-Jl-822">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Qw7-Jl-822">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="623-I8-ySr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="r1P-6q-zHD" firstAttribute="top" secondItem="Qw7-Jl-822" secondAttribute="bottom" id="Cf6-Gi-WRe"/>
+                            <constraint firstItem="Qw7-Jl-822" firstAttribute="leading" secondItem="X75-bT-eS9" secondAttribute="leading" constant="20" id="Zfg-9l-NIH"/>
+                            <constraint firstAttribute="trailing" secondItem="Qw7-Jl-822" secondAttribute="trailing" constant="20" id="oyZ-Z7-oeY"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Target Action" id="m3e-kd-UeG">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="xKz-4G-Taz">
@@ -291,9 +299,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="sE0-Qh-hHq">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="sE0-Qh-hHq">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="IAP-Bf-n1D"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -362,6 +373,11 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sE0-Qh-hHq" secondAttribute="trailing" constant="20" id="00a-5Z-U6f"/>
+                            <constraint firstItem="sE0-Qh-hHq" firstAttribute="leading" secondItem="HQl-cY-37f" secondAttribute="leading" constant="20" id="9vF-qh-JiW"/>
+                            <constraint firstItem="mjI-92-pYS" firstAttribute="top" secondItem="sE0-Qh-hHq" secondAttribute="bottom" id="XgY-Ss-Jrk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Key-Value Observing" id="k7I-pl-71n">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="QJe-d5-xw2">
@@ -413,9 +429,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-wx-CNO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="l0Y-wx-CNO">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7LN-3t-0xl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -427,6 +446,11 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="omQ-Yx-Z9Q" firstAttribute="top" secondItem="l0Y-wx-CNO" secondAttribute="bottom" id="PzE-HM-yd1"/>
+                            <constraint firstItem="l0Y-wx-CNO" firstAttribute="leading" secondItem="m9j-7r-6Ls" secondAttribute="leading" constant="20" id="TsT-mx-Ajw"/>
+                            <constraint firstAttribute="trailing" secondItem="l0Y-wx-CNO" secondAttribute="trailing" constant="20" id="oTt-ew-HuQ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Delegation" id="65l-HC-X8F">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="Pdb-MA-gBD">
@@ -467,9 +491,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="j4z-Kr-aSC">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="j4z-Kr-aSC">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Q7f-8a-FVl"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -483,6 +510,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PhA-KG-ubt" firstAttribute="top" secondItem="j4z-Kr-aSC" secondAttribute="bottom" id="2DP-lu-F7l"/>
+                            <constraint firstItem="j4z-Kr-aSC" firstAttribute="leading" secondItem="g7f-c4-c3F" secondAttribute="leading" constant="20" id="Bd1-pJ-hXl"/>
+                            <constraint firstAttribute="trailing" secondItem="j4z-Kr-aSC" secondAttribute="trailing" constant="20" id="Ik9-0O-vcF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Blocks" id="Qjv-0R-48P">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="Zhf-aE-Wb7">
@@ -562,15 +594,23 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="A2I-FL-1hA">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="A2I-FL-1hA">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6wY-kR-HAU"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A2I-FL-1hA" secondAttribute="trailing" constant="20" id="KbN-hz-eIb"/>
+                            <constraint firstItem="A2I-FL-1hA" firstAttribute="leading" secondItem="94o-p7-3Vo" secondAttribute="leading" constant="20" id="TtP-N9-GSK"/>
+                            <constraint firstItem="h4I-mk-zLa" firstAttribute="top" secondItem="A2I-FL-1hA" secondAttribute="bottom" id="tzT-N6-8cC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Notification Center" id="Ncc-QL-OMa">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="Ne4-bh-hzZ">
@@ -650,9 +690,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-9r-o0o">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip: Use Control Center's quick access airplane mode to test the reachability connection" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="rk9-9r-o0o">
                                 <rect key="frame" x="20" y="524" width="280" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cgB-ac-7Cx"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="12"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -679,6 +722,11 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K11-Im-LKc" firstAttribute="top" secondItem="rk9-9r-o0o" secondAttribute="bottom" id="1FE-rn-FoH"/>
+                            <constraint firstItem="rk9-9r-o0o" firstAttribute="leading" secondItem="bQu-3g-laQ" secondAttribute="leading" constant="20" id="HGf-tK-nLP"/>
+                            <constraint firstAttribute="trailing" secondItem="rk9-9r-o0o" secondAttribute="trailing" constant="20" id="eWA-LL-zU9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ESCObservable" id="7A4-c7-GNW">
                         <barButtonItem key="rightBarButtonItem" title="Start" id="UUb-pB-tPp">
